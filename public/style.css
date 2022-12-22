@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, 'Source Code pro';
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #198754;
+  padding: .5rem;
+  border-radius: 4px;
+  color: white;
+}
+
+form{
+  margin: 10px 0;
+}
+
+label, input{
+  display: block;
+  margin: 5px 0;
+}
+
+input{
+  width: 500px;
+  height: 30px;
+  outline: none;
+  padding: .3rem;
+}
+
+.btn{
+  cursor: pointer;
+  background-color: #0d6efd;
+  color: white;
+  font-size: 1.5rem;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+}
+
+input::placeholder{
+  font-size: 1rem;
+}
